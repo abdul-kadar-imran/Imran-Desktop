@@ -1,0 +1,8 @@
+{
+  "name": "imran OS",
+  "description": "A visually stunning, premium personal operating system-style portfolio that automatically adapts between desktop and mobile environments with glassmorphism styling, custom window management, widgets, search engine, terminal, and persistent state.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
