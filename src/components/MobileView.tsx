@@ -198,7 +198,7 @@ export default function MobileView({
                     Abdul Kadar Imran
                   </h2>
                   <p className="text-xs text-emerald-400 font-medium mt-0.5">
-                    Frontend Architect
+                    AI App Developer | Frontend Architect
                   </p>
                 </div>
               </div>
@@ -212,7 +212,7 @@ export default function MobileView({
             </div>
 
             <a
-              href="/resume/Imran-cv.pdf"
+              href="/Imran.cv.pdf"
               download="Imran-cv.pdf"
               onClick={() => audioSynth.playTick()}
               className="group flex flex-row items-center justify-center gap-2 text-center transition-all bg-sky-500 hover:bg-sky-600 rounded-2xl py-3 px-4 shadow-lg shadow-sky-500/20 text-slate-950 font-bold cursor-pointer w-full mt-3 shrink-0"

@@ -496,7 +496,7 @@ export default function Window({
 
               {/* Resume Download Button */}
               <a
-                href="/resume/Imran-cv.pdf"
+                href="/Imran.cv.pdf"
                 download="Imran-cv.pdf"
                 onClick={() => audioSynth.playClick()}
                 className="mt-10 flex h-24 w-full items-center justify-center gap-4 rounded-2xl bg-sky-500 text-slate-950 text-base font-semibold shadow-lg shadow-sky-500/20 transition-all duration-300 hover:bg-sky-600 hover:scale-[1.02] cursor-pointer"
