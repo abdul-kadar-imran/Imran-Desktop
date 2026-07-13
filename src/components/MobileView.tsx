@@ -61,7 +61,7 @@ export default function MobileView({
 
 
   const projectStripItems = PROJECTS.filter((project) =>
-    ['qrnest', 'ethernote', 'layoutlab', 'layerly', 'keysmith', 'optiqo'].includes(project.id)
+    ['qrnest', 'ethernote', 'layerly', 'keysmith', 'optiqo'].includes(project.id)
   ).map((project) => ({
     id: project.id,
     title: project.name,
@@ -75,8 +75,10 @@ export default function MobileView({
     showToast(`Opening ${title}...`, 'success');
   };
 
+  const mobileUnavailableApps = ['tstrike', 'layoutlab'];
+
   const handleOpenApp = (appId: string) => {
-    if (appId === 'tstrike') {
+    if (mobileUnavailableApps.includes(appId)) {
       audioSynth.playTick();
       showToast('Not applicable for mobile', 'info');
       return;
@@ -314,7 +316,7 @@ export default function MobileView({
                     key={item.id}
                     type="button"
                     onClick={() => {
-                      if (item.id === 'tstrike') {
+                      if (mobileUnavailableApps.includes(item.id)) {
                         audioSynth.playTick();
                         showToast('Not applicable for mobile', 'info');
                       } else {
@@ -364,8 +366,7 @@ export default function MobileView({
             </div>
 
             {/* Client Projects — compact padding */}
-            <div className="flex-1 min-h-0 rounded-3xl border border-white/15 bg-slate-900/35 p-3 shadow-[0_16px_45px_rgba(0,0,0,0.25)] backdrop-blur-2xl flex flex-col">
-              <div className="mb-2 text-center shrink-0">
+<div className="rounded-3xl border border-white/15 bg-slate-900/35 p-2 shadow-[0_16px_45px_rgba(0,0,0,0.25)] backdrop-blur-2xl h-[320px] flex flex-col">              <div className="mb-2 text-center shrink-0">
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">Client Projects</p>
               </div>
               <div className="grid grid-cols-2 gap-3 content-start">
@@ -392,7 +393,27 @@ export default function MobileView({
             </div>
 
             {/* Bottom Icons: T-Strike & Recycle Bin — shrink-0 so they never push content out */}
-            <div className="flex items-center justify-end gap-6 shrink-0 relative pb-1">
+            <div className="grid grid-cols-3 gap-3 w-full shrink-0 relative pb-1">              
+              <div
+                onClick={(e) => {
+                  e.stopPropagation();
+                  audioSynth.playTick();
+                  showToast('Not applicable for mobile', 'info');
+                }}
+                className="flex flex-col items-center justify-center gap-1.5 cursor-pointer group select-none p-2 rounded-2xl transition-all duration-300 border border-transparent hover:bg-white/5 hover:shadow-[0_0_20px_rgba(16,185,129,0.12)]"
+                title="Not applicable for mobile"
+              >
+                <div className="w-14 h-14 rounded-2xl bg-slate-950/35 p-1.5 flex items-center justify-center transition-all duration-300 group-hover:scale-110 group-hover:-translate-y-0.5">
+                  <img
+                    src={ICONS.layoutlab}
+                    alt="Layout Lab"
+                    className="w-full h-full object-cover rounded-[10px]"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+                <span className="text-[10px] font-mono text-white/80 group-hover:text-emerald-300 transition-colors drop-shadow">Layout Lab</span>
+              </div>
+
               <div
                 onClick={(e) => {
                   e.stopPropagation();
