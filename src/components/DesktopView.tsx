@@ -389,7 +389,7 @@ export default function DesktopView({
 
             {/* Resume Download Button */}
             <a
-              href="public\Imran.cv.pdf"
+              href="/Imran.cv.pdf"
               download="Imran-cv.pdf"
               onClick={() => audioSynth.playTick()}
               className="group flex flex-row items-center justify-center gap-2 text-center transition-all bg-sky-500 hover:bg-sky-600 rounded-2xl py-3 px-4 shadow-lg shadow-sky-500/20 text-slate-950 font-bold cursor-pointer w-full mt-2"
