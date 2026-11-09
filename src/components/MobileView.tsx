@@ -214,7 +214,7 @@ export default function MobileView({
             </div>
 
             <a
-              href="/Imran.cv.pdf"
+              href="public\Imran.cv.pdf"
               download="Imran-cv.pdf"
               onClick={() => audioSynth.playTick()}
               className="group flex flex-row items-center justify-center gap-2 text-center transition-all bg-sky-500 hover:bg-sky-600 rounded-2xl py-3 px-4 shadow-lg shadow-sky-500/20 text-slate-950 font-bold cursor-pointer w-full mt-3 shrink-0"
@@ -366,9 +366,9 @@ export default function MobileView({
             </div>
 
             {/* Client Projects — compact padding */}
-<div className="rounded-3xl border border-white/15 bg-slate-900/35 p-2 shadow-[0_16px_45px_rgba(0,0,0,0.25)] backdrop-blur-2xl h-[320px] flex flex-col">              <div className="mb-2 text-center shrink-0">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">Client Projects</p>
-              </div>
+            <div className="rounded-3xl border border-white/15 bg-slate-900/35 p-2 shadow-[0_16px_45px_rgba(0,0,0,0.25)] backdrop-blur-2xl h-[320px] flex flex-col">              <div className="mb-2 text-center shrink-0">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300">Client Projects</p>
+            </div>
               <div className="grid grid-cols-2 gap-3 content-start">
                 {clientProjectPanelItems.map((item) => (
                   <button
@@ -393,7 +393,7 @@ export default function MobileView({
             </div>
 
             {/* Bottom Icons: T-Strike & Recycle Bin — shrink-0 so they never push content out */}
-            <div className="grid grid-cols-3 gap-3 w-full shrink-0 relative pb-1">              
+            <div className="grid grid-cols-3 gap-3 w-full shrink-0 relative pb-1">
               <div
                 onClick={(e) => {
                   e.stopPropagation();
