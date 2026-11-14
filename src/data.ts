@@ -276,12 +276,11 @@ export const SKILLS = [
   { category: 'Creative Tech & Tooling', items: ['Figma Grid Design', 'Canvas Vector Math', 'WebAudio API / Synthesis', 'VASM compiles', 'WebCrypto / Security'] }
 ];
 
-export const ABOUT_TEXT = `Hello, I'm Imran. I'm a passionate design-focused Frontend Architect on a mission to build highly refined, functional digital systems that are a joy to experience. 
+export const ABOUT_TEXT = `Hello, I'm Imran — a passionate Frontend Developer with a strong command of modern web technologies, programming, and Artificial Intelligence.
 
-Through my work in computer interfaces, graphics math, and secure protocols, I merge rigorous engineering with editorial-style layouts, glassmorphic depths, and robust responsive structures. 
+I combine creative design with technical expertise in React, TypeScript, responsive web development, and AI-powered applications to build refined, intelligent, and user-focused digital experiences.
 
-Currently, I design web kernels, vector grids, and modular platforms. Welcome to my custom operating workspace: imran OS. Open any app on the grid or drop a query into my terminal tool to explore my journey.`;
-
+Welcome to Imran OS, my interactive workspace. Explore my projects, skills, and journey.`;
 export const CERTIFICATES = [
   { title: 'Advanced Frontend Architecture with WebAssembly', issuer: 'WASM Alliance', year: '2025' },
   { title: 'Interactive Data Visualizations & Complex Logic', issuer: 'D3 Masterclass Group', year: '2024' },
