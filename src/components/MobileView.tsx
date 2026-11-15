@@ -101,7 +101,7 @@ export default function MobileView({
     {
       id: 'whatsapp',
       label: 'WhatsApp',
-      href: 'https://wa.me/919363001680',
+      href: 'https://wa.me/+971545490918',
       icon: whatsappIcon,
       isImage: true,
     },
@@ -122,7 +122,7 @@ export default function MobileView({
     {
       id: 'phone',
       label: 'Phone',
-      href: 'tel:+919363001680',
+      href: 'tel:++971545490918',
       icon: null,
       isImage: false,
     },
@@ -214,8 +214,8 @@ export default function MobileView({
             </div>
 
             <a
-              href="/Imran.cv.pdf"
-              download="Imran-cv.pdf"
+              href="/Imran App Developer.CV.pdf"
+              download="Imran App Developer.CV.pdf"
               onClick={() => audioSynth.playTick()}
               className="group flex flex-row items-center justify-center gap-2 text-center transition-all bg-sky-500 hover:bg-sky-600 rounded-2xl py-3 px-4 shadow-lg shadow-sky-500/20 text-slate-950 font-bold cursor-pointer w-full mt-3 shrink-0"
             >
@@ -238,7 +238,7 @@ export default function MobileView({
             {/* Glossy Skill Set Panel — fixed height */}
             <div className="w-full rounded-3xl border border-white/15 bg-slate-900/35 p-3 shadow-[0_16px_45px_rgba(0,0,0,0.25)] backdrop-blur-2xl flex flex-col shrink-0">
               <div className="mb-2 text-center">
-                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-emerald-300">Skill Set</p>
+                <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-emerald-300">Skill Set & Links</p>
               </div>
               <div className="grid grid-cols-3 sm:grid-cols-6 gap-2 justify-items-center items-center py-1">
                 {/* React */}

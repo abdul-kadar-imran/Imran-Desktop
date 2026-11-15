@@ -447,7 +447,7 @@ export default function Window({
             <div className="grid grid-cols-1 gap-4 w-full max-w-sm pb-8">
               {/* WhatsApp Button */}
               <a
-                href="https://wa.me/917358245131"
+                href="https://wa.me/+971545490918"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => audioSynth.playClick()}

@@ -341,7 +341,7 @@ export default function DesktopView({
 
             <div className="grid grid-cols-3 gap-2.5">
               <a
-                href="https://wa.me/919363001680"
+                href="https://wa.me/+971545490918"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => audioSynth.playTick()}
@@ -469,7 +469,7 @@ export default function DesktopView({
           {/* Glossy Skill Set Panel */}
           <div className="flex-1 rounded-3xl border border-white/15 bg-slate-900/35 p-2 shadow-[0_16px_45px_rgba(0,0,0,0.25)] backdrop-blur-2xl flex flex-col">
             <div className="mb-1 text-center">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-emerald-300">Skill Set</p>
+              <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-emerald-300">Skill Set & Links</p>
             </div>
             <div className="grid grid-cols-3 sm:grid-cols-6 gap-1 justify-items-center items-center py-1">
               {/* React */}

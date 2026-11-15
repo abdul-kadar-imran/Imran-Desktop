@@ -219,7 +219,7 @@ https://linkedin.com/in/abdulkadarimran
 
 **WhatsApp**
 
-https://wa.me/919363001680
+https://wa.me/+971545490918
 
 ---
 
