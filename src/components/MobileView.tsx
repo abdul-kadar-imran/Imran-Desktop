@@ -61,7 +61,7 @@ export default function MobileView({
 
 
   const projectStripItems = PROJECTS.filter((project) =>
-    ['qrnest', 'ethernote', 'layerly', 'keysmith', 'optiqo'].includes(project.id)
+    ['qrnest', 'ethernote', 'layerly', 'keysmith', 'optiqo', 'memora'].includes(project.id)
   ).map((project) => ({
     id: project.id,
     title: project.name,
@@ -273,25 +273,22 @@ export default function MobileView({
                 </div>
                 {/* Figma */}
                 <a
-                  href="https://www.figma.com/design/yVOY936ciKE8XlKqNLcjd4/LOGO-FILES?node-id=27-4&t=5aX9PNA8yl0WWFar-0"
+                  href="https://www.figma.com/design/yVOY936ciKE8XlKqNLcjd4/LOGO-FILES?node-id=27-4&t=lx3gv0dD7za08l5Q-0"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Open Figma design files in a new tab"
-                  className="group flex flex-col items-center gap-2 cursor-pointer no-underline"
+                  className="group flex flex-col items-center gap-1.5 cursor-pointer no-underline"
                 >
-                  <div className="group flex flex-col items-center gap-2 cursor-pointer">
-
-                    <div className="w-12 h-12 rounded-2xl border border-white/10 bg-slate-950/40 flex items-center justify-center transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.0)]">
-                      <svg viewBox="0 0 38 57" fill="none" className="w-5 h-5">
-                        <path d="M19 28.5C19 33.7467 14.7467 38 9.5 38C4.25329 38 0 33.7467 0 28.5C0 23.2533 4.25329 19 9.5 19L19 19L19 28.5Z" fill="#1ABCFE" />
-                        <path d="M19 47.5C19 52.7467 14.7467 57 9.5 57C4.25329 57 0 52.7467 0 47.5C0 42.2533 4.25329 38 9.5 38L19 38L19 47.5Z" fill="#0ACF83" />
-                        <path d="M19 19L28.5 19C33.7467 19 38 14.7467 38 9.5C38 4.2533 33.7467 0 28.5 0L19 0L19 19Z" fill="#FF7262" />
-                        <path d="M0 9.5C0 14.7467 4.25329 19 9.5 19L19 19L19 0L9.5 0C4.25329 0 0 4.2533 0 9.5Z" fill="#F24E1E" />
-                        <path d="M19 28.5C19 23.2533 23.2533 19 28.5 19C33.7467 19 38 23.2533 38 28.5C38 33.7467 33.7467 38 28.5 38C23.2533 38 19 33.7467 19 28.5Z" fill="#A259FF" />
-                      </svg>
-                    </div>
-                    <span className="text-[9px] font-mono text-white/70">Figma</span>
+                  <div className="w-12 h-12 rounded-2xl border border-white/10 bg-slate-950/40 flex items-center justify-center transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.0)]">
+                    <svg viewBox="0 0 38 57" fill="none" className="w-5 h-5">
+                      <path d="M19 28.5C19 33.7467 14.7467 38 9.5 38C4.25329 38 0 33.7467 0 28.5C0 23.2533 4.25329 19 9.5 19L19 19L19 28.5Z" fill="#1ABCFE" />
+                      <path d="M19 47.5C19 52.7467 14.7467 57 9.5 57C4.25329 57 0 52.7467 0 47.5C0 42.2533 4.25329 38 9.5 38L19 38L19 47.5Z" fill="#0ACF83" />
+                      <path d="M19 19L28.5 19C33.7467 19 38 14.7467 38 9.5C38 4.2533 33.7467 0 28.5 0L19 0L19 19Z" fill="#FF7262" />
+                      <path d="M0 9.5C0 14.7467 4.25329 19 9.5 19L19 19L19 0L9.5 0C4.25329 0 0 4.2533 0 9.5Z" fill="#F24E1E" />
+                      <path d="M19 28.5C19 23.2533 23.2533 19 28.5 19C33.7467 19 38 23.2533 38 28.5C38 33.7467 33.7467 38 28.5 38C23.2533 38 19 33.7467 19 28.5Z" fill="#A259FF" />
+                    </svg>
                   </div>
+                  <span className="text-[9px] font-mono text-white/70">Figma</span>
                 </a>
 
                 {/* GitHub */}

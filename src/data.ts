@@ -14,6 +14,7 @@ import keysmithIcon from './assets/images/keysmith.png';
 import layoutlabIcon from './assets/images/layoutlab.png';
 import recycleIcon from './assets/images/trash.png';
 import optiqoIcon from './assets/images/optiqo.png';
+import memora from './assets/images/memora.png'
 import phoneWallpaper from './assets/images/phone wallpaper.jpeg';
 import laptopWallpaper from './assets/images/laptop wallpaper.jpeg';
 import hisIcon from './assets/images/HIS.png';
@@ -28,6 +29,7 @@ export const ICONS = {
   keysmith: keysmithIcon,
   layoutlab: layoutlabIcon,
   optiqo: optiqoIcon,        // Map optiqo to shiny optics lens miniature artwork
+  memora: memora,
   recycle: recycleIcon,
   his: hisIcon,
   scm: scmIcon,
@@ -125,6 +127,27 @@ export const PROJECTS: Project[] = [
       'Responsive desktop and mobile experience'
     ],
   },
+
+  {
+    id: 'memora',
+    name: 'MEMORA',
+    desc: 'Interactive brain-training and memory game platform.',
+    longDesc: 'MEMORA is an interactive brain-training platform designed to sharpen memory, focus, and cognitive skills through engaging game modes. Players can challenge themselves with classic memory matching, time-based challenges, and disappearing memory games while earning XP, unlocking achievements, and tracking their performance through a personalized dashboard.',
+    tech: ['React', 'TypeScript', 'Framer Motion', 'Tailwind CSS', 'Vite', 'LocalStorage'],
+    screenshot: '/memora-preview.png',
+    liveUrl: 'https://memora-game.vercel.app/',
+    githubUrl: 'https://github.com/abdul-kadar-imran/memora-game',
+    features: [
+      'Three interactive memory game modes',
+      'Multiple difficulty levels and cognitive challenges',
+      'XP progression, levels, and achievement system',
+      'Performance tracking with a personalized dashboard',
+      'Game history, scores, and accuracy statistics',
+      'Responsive interface with light and dark themes',
+      'LocalStorage-based progress persistence'
+    ],
+  },
+
   {
     id: 'salesflow',
     name: 'SalesFlow',
